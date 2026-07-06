@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fisherbook — Política de Privacidade / Privacy Policy</title>
+<title>Fisherbook — Legal</title>
 <style>
   :root {
     --teal: #12999D;
@@ -18,73 +18,44 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
-    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   header {
     background: var(--ink);
     color: #fff;
-    padding: 32px 20px;
+    padding: 40px 20px;
     text-align: center;
   }
-  header h1 {
-    margin: 0 0 4px;
-    font-size: 22px;
-    letter-spacing: 0.2px;
-  }
-  header p {
-    margin: 0;
-    color: #9FC8CA;
-    font-size: 13px;
-  }
-  nav.lang-switch {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding: 16px 20px 0;
-  }
-  nav.lang-switch a {
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--teal);
-    border: 1px solid var(--teal);
-    border-radius: 999px;
-    padding: 6px 14px;
-  }
+  header h1 { margin: 0 0 4px; font-size: 24px; }
+  header p { margin: 0; color: #9FC8CA; font-size: 13px; }
   main {
-    max-width: 680px;
+    max-width: 480px;
     margin: 0 auto;
-    padding: 24px 20px 64px;
+    padding: 32px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
-  section {
-    margin-bottom: 40px;
-  }
-  section > h2.doc-title {
-    font-size: 20px;
+  a.card {
+    display: block;
+    background: #fff;
+    border: 1px solid #DDE6E6;
+    border-radius: 12px;
+    padding: 18px 20px;
+    text-decoration: none;
     color: var(--ink);
-    margin-bottom: 2px;
-  }
-  section > p.doc-meta {
-    color: var(--muted);
-    font-size: 13px;
-    margin-top: 0;
-    margin-bottom: 24px;
-  }
-  h3 {
+    font-weight: 600;
     font-size: 15px;
-    color: var(--ink);
-    margin: 24px 0 6px;
   }
-  p {
-    font-size: 14px;
-    color: var(--text);
-    white-space: pre-line;
-    margin: 0 0 4px;
-  }
-  hr {
-    border: none;
-    border-top: 1px solid #DDE6E6;
-    margin: 40px 0;
+  a.card span {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px;
   }
   footer {
     text-align: center;
@@ -97,122 +68,17 @@
 <body>
   <header>
     <h1>🎣 Fisherbook</h1>
-    <p>Política de Privacidade · Privacy Policy</p>
+    <p>Legal · Support</p>
   </header>
-  <nav class="lang-switch">
-    <a href="#pt">Português</a>
-    <a href="#en">English</a>
-  </nav>
   <main>
-    <section id="pt">
-      <h2 class="doc-title">Política de Privacidade</h2>
-      <p class="doc-meta">Fisherbook · Versão 1.0 · Junho de 2026</p>
-
-      <h3>1. Quem somos</h3>
-      <p>O Fisherbook é um aplicativo de comunidade de pesca desenvolvido por Luiz Taira. Para dúvidas ou solicitações relacionadas aos seus dados, entre em contato pelo e-mail fisher.book.app@gmail.com.</p>
-
-      <h3>2. Dados que coletamos</h3>
-      <p>Coletamos os seguintes dados pessoais:
-
-• E-mail e senha (autenticação)
-• Nome de exibição, nome de usuário e foto de perfil
-• Localização GPS das suas pescadas e pontos de pesca
-• Fotos das capturas que você registra
-• Dados de atividade: espécie, isca, peso, comprimento, notas e data/hora
-• Relacionamentos com outros usuários (amizades)</p>
-
-      <h3>3. Por que coletamos</h3>
-      <p>Os dados são usados exclusivamente para o funcionamento do aplicativo: exibir o mapa de pontos, alimentar o feed de amigos e permitir a comunidade de pesca. Não utilizamos seus dados para publicidade, não vendemos dados a terceiros e não compartilhamos com empresas externas.</p>
-
-      <h3>4. Base legal (Art. 9 da LGPD)</h3>
-      <p>O tratamento dos seus dados pessoais é fundamentado nas seguintes bases legais:
-
-• Execução de contrato (Art. 7, V): dados essenciais para o funcionamento do app (e-mail, nome, perfil, amizades) são necessários para prestar o serviço.
-• Consentimento (Art. 7, I): localização GPS e fotos são tratados com base no seu consentimento expresso. Você pode revogar o consentimento a qualquer momento excluindo sua conta.</p>
-
-      <h3>5. Localização GPS (dado sensível)</h3>
-      <p>Sua localização GPS é tratada como dado sensível (Art. 11 da LGPD). Ela é coletada somente quando você registra uma pescada ou salva um ponto, nunca em segundo plano. Apenas você e seus amigos aceitos podem ver a localização das suas pescadas, conforme a visibilidade que você configurar.</p>
-
-      <h3>6. Com quem compartilhamos</h3>
-      <p>Suas pescadas são visíveis apenas para amigos que você aceitou no app. Pontos de pesca são privados por padrão. Não compartilhamos seus dados com anunciantes, corretores de dados ou qualquer terceiro comercial.</p>
-
-      <h3>7. Por quanto tempo guardamos</h3>
-      <p>Seus dados são mantidos enquanto sua conta estiver ativa. Ao excluir sua conta, todos os seus dados (perfil, pescadas, pontos, fotos e amizades) são permanentemente removidos dos nossos servidores em até 30 dias.</p>
-
-      <h3>8. Seus direitos (Art. 18 da LGPD)</h3>
-      <p>Você tem direito a:
-
-• Acessar seus dados — disponíveis nas telas do app
-• Corrigir dados incorretos — edite seu perfil diretamente no app
-• Excluir seus dados — use "Excluir minha conta" na tela de Perfil
-• Revogar consentimento — a revogação é efetuada ao excluir a conta
-
-Para outras solicitações, entre em contato: fisher.book.app@gmail.com</p>
-
-      <h3>9. Segurança</h3>
-      <p>Utilizamos o Supabase como infraestrutura de banco de dados e autenticação. As senhas são armazenadas com hash seguro e nunca em texto puro. O acesso aos dados é controlado por políticas de segurança em nível de linha (Row Level Security).</p>
-
-      <h3>10. Contato</h3>
-      <p>Responsável pelo tratamento de dados:
-Luiz Taira
-fisher.book.app@gmail.com</p>
-    </section>
-
-    <hr>
-
-    <section id="en">
-      <h2 class="doc-title">Privacy Policy</h2>
-      <p class="doc-meta">Fisherbook · Version 1.0 · June 2026</p>
-
-      <h3>1. Who we are</h3>
-      <p>Fisherbook is a fishing community app developed by Luiz Taira. For questions or requests related to your data, contact fisher.book.app@gmail.com.</p>
-
-      <h3>2. Data we collect</h3>
-      <p>We collect the following personal data:
-
-• Email and password (authentication)
-• Display name, username and profile photo
-• GPS location of your catches and fishing spots
-• Photos of the catches you log
-• Activity data: species, bait, weight, length, notes and date/time
-• Relationships with other users (friendships)</p>
-
-      <h3>3. Why we collect it</h3>
-      <p>Data is used exclusively to run the app: displaying the spots map, powering the friends feed, and enabling the fishing community. We do not use your data for advertising, do not sell data to third parties, and do not share it with external companies.</p>
-
-      <h3>4. Legal basis (LGPD Art. 9 — Brazil's data protection law)</h3>
-      <p>Processing of your personal data is based on the following legal grounds:
-
-• Contract performance: data essential to the app's operation (email, name, profile, friendships) is required to provide the service.
-• Consent: GPS location and photos are processed based on your explicit consent. You may withdraw consent at any time by deleting your account.</p>
-
-      <h3>5. GPS location (sensitive data)</h3>
-      <p>Your GPS location is treated as sensitive data. It is collected only when you log a catch or save a spot, never in the background. Only you and the friends you've accepted can see the location of your catches, according to the visibility you set.</p>
-
-      <h3>6. Who we share data with</h3>
-      <p>Your catches are visible only to friends you've accepted in the app. Fishing spots are private by default. We do not share your data with advertisers, data brokers, or any commercial third party.</p>
-
-      <h3>7. How long we keep it</h3>
-      <p>Your data is kept while your account is active. When you delete your account, all your data (profile, catches, spots, photos and friendships) is permanently removed from our servers within 30 days.</p>
-
-      <h3>8. Your rights</h3>
-      <p>You have the right to:
-
-• Access your data — available in the app screens
-• Correct incorrect data — edit your profile directly in the app
-• Delete your data — use "Delete my account" on the Profile screen
-• Withdraw consent — withdrawal is effected by deleting your account
-
-For other requests, contact: fisher.book.app@gmail.com</p>
-
-      <h3>9. Security</h3>
-      <p>We use Supabase as our database and authentication infrastructure. Passwords are stored with secure hashing and never in plain text. Data access is controlled by Row Level Security policies.</p>
-
-      <h3>10. Contact</h3>
-      <p>Data controller:
-Luiz Taira
-fisher.book.app@gmail.com</p>
-    </section>
+    <a class="card" href="/privacy-policy/">
+      Política de Privacidade / Privacy Policy
+      <span>Como tratamos seus dados · How we handle your data</span>
+    </a>
+    <a class="card" href="/suporte/">
+      Suporte / Support
+      <span>FAQ e contato · FAQ and contact</span>
+    </a>
   </main>
   <footer>
     © 2026 Fisherbook — Luiz Taira
